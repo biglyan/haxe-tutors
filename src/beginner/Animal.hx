@@ -1,19 +1,13 @@
-class Animal
-{
-	public function new() { }
+class Animal {
+	public function new() {}
 
-	public function sayHello() 
-	{
+	public function sayHello() {
 		trace("Hello!");
 	}
 
-	public function say()
-	{
+	public function say() {}
 
-	}
-
-	public static function main() : Void
-	{
+	public static function main():Void {
 		var animal = new Animal();
 		animal.sayHello();
 		animal.say();
